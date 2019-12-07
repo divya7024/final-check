@@ -1,1 +1,75 @@
 /* Add styles for application here */
+body{
+	height: 100%;
+	width: 98%;
+}
+header{
+	background-color: #4a5b91;
+	color: white;
+	height: 80px;
+	font-size: 20pt;
+}
+div{
+	height: 500px;
+}
+footer{
+	background-color: #adb3af;
+	height: 80px;
+	margin-right: 10px;
+	font-size: 15pt;
+}
+img{
+	height: 50px;
+	width: 50px;
+}
+#favorites{
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	color: #fcfcfc;
+}
+#movies{
+	float: right;
+	margin-top: 30px;
+	margin-right:20px;
+	color: #fcfcfc;
+}
+.cont{
+	margin-left: 80px;
+	font-size: 15pt;
+	width: 1000px;
+	padding: 30px;
+}
+h3{
+	text-align: center;
+    color: #47b564;
+}
+.head{
+    margin-left: 30px;
+}
+.txt-left{
+    text-align: left;
+    width: 300px;	
+}
+.txt-center{
+    text-align: center;
+    width: 100px;
+}
+.txt-right{
+    text-align: right;
+    width: 100px;
+}
+.status{
+    margin-left: 50px;
+}	
+p{
+	color: #aba4a4;
+}
+.color{
+	background-color: #5b68b0;
+	height: 40px;
+	width: 110px;
+}
+h2{
+	margin-left: 110px;
+}
