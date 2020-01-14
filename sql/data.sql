@@ -4,6 +4,7 @@
 ----------------------------------------------------------------------------------------------------
 
 INSERT INTO movie_list
+
 VALUES
 
 			(1, 'Avatar', 278796508, 'Yes', '2017-03-15','Science Fiction', 'Yes'),
@@ -21,7 +22,23 @@ VALUES
 -- Display Movie List --
 -------------------------------------------------------------------------------------------------------
 
-SELECT * FROM movie_list;
+SELECT 
+
+mv_id AS Id ,
+
+mv_title AS Title,
+
+mv_box_office AS Box_Office,
+
+mv_active AS Active,
+
+mv_date_of_launch AS Date_Of_Launch,
+
+mv_genre As Genre,
+
+mv_has_teaser AS Has_Teaser
+
+FROM movie_list;
 
 
 ------------------------------------------------------------------------------------------------------
@@ -40,7 +57,25 @@ WHERE mv_id=1;
 -- Display Updated Movie List --
 ---------------------------------------------------------------------------------------------------------
 
-SELECT * FROM movie_list;
+
+SELECT 
+
+mv_id AS Id ,
+
+mv_title AS Title,
+
+mv_box_office AS Box_Office,
+
+mv_active AS Active,
+
+mv_date_of_launch AS Date_Of_Launch,
+
+mv_genre As Genre,
+
+mv_has_teaser AS Has_Teaser
+
+ FROM movie_list;
+
 
 
 ---------------------------------------------------------------------------------------------------------
@@ -55,7 +90,13 @@ VALUES
 
 
 
-SELECT * FROM user;
+SELECT 
+
+us_id AS Id,
+
+us_name As User
+
+FROM user;
 
 
 ---------------------------------------------------------------------------------------------------------
@@ -95,7 +136,16 @@ ON fv_pr_id=mv_id
 WHERE fv_us_id=1;
 
 
-select * from favorites;
+SELECT
+ 
+fv_id As Id,
+
+fv_us_id AS User_id,
+
+fv_pr_id AS Price
+
+FROM favorites;
+
 
 
 -----------------------------------------------------------------------------------------------------------
@@ -118,7 +168,15 @@ WHERE fv_us_id=1;
 -- Display Favorites---
 -----------------------------------------------------------------------------------------------------------
 
-SELECT * FROM favorites;
+SELECT
+ 
+fv_id As Id,
+
+fv_us_id AS User_id,
+
+fv_pr_id AS Price
+
+FROM favorites;
 
 
 
@@ -164,7 +222,16 @@ WHERE fv_us_id=1;
 -- Favorites --
 -----------------------------------------------------------------------------------------------------------
 
-SELECT * FROM favorites;
+SELECT
+ 
+fv_id As Id,
+
+fv_us_id AS User_id,
+
+fv_pr_id AS Price
+
+FROM favorites;
+
 
 
 
